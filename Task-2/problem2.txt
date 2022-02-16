@@ -1,0 +1,19 @@
+START 
+
+Initialize a to zero
+Initialize b to one
+Initialize c to zer0
+
+DISPLAY "Enter a number : "
+n=INPUT
+READ n
+ 
+for (Initialize i to 2,i is less than n,increment i every loop) DO
+     SET c=a+b
+     SET a=b
+     SET b=c
+END for
+
+print c
+
+STOP
