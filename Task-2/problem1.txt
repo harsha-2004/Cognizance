@@ -1,26 +1,26 @@
-START 
+step 1: START 
 
-DISPLAY Enter a number : 
-number = INPUT 
-READ number
-Initialize a to zero
-Initialize i to zero
+step 2: DISPLAY Enter a number : 
+step 3: number = INPUT 
+step 4: READ number
+step 5: Initialize a to zero
+step 6: Initialize i to zero
 
-for (,i less than or equal to number,increment i every loop) DO 
-    a=a+3
+step 7.0: for (,i less than or equal to number,increment i every loop) DO 
+     7.1: a=a+3
 
-    if a = number THEN
-       break the loop
-    END if
+     7.2: if a = number THEN
+     7.3: break the loop
+     7.4: END if
 
-END for
+step 8: END for
 
-if a = number THEN 
-   Print True  
+step 9.0: if a = number THEN 
+     9.1: Print True  
 
-else
-   Print False 
+step 10.0: else
+     10.1:  Print False 
 
-END if
+step 11: END if
 
-STOP
+step 12: STOP
