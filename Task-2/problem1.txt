@@ -6,11 +6,7 @@ READ number
 Initialize a to zero
 Initialize i to zero
 
-<<<<<<< HEAD
-for i=0 To number  
-=======
-for i=0 To number 
->>>>>>> 330464b0cb65a1b04c7aec3cb05202f217c049a6
+for (,i less than or equal to number,increment i every loop) DO 
     a=a+3
 
     if a = number THEN
@@ -20,11 +16,7 @@ for i=0 To number
 END for
 
 if a = number THEN 
-<<<<<<< HEAD
    Print True  
-=======
-   Print "True"  
->>>>>>> 330464b0cb65a1b04c7aec3cb05202f217c049a6
 
 else
    Print False 
