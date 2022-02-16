@@ -4,7 +4,7 @@ Initialize a to zero
 Initialize b to one
 Initialize c to zer0
 
-DISPLAY "Enter a number : "
+DISPLAY Enter a number : 
 n=INPUT
 READ n
  
