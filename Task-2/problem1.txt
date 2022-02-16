@@ -1,0 +1,25 @@
+START 
+
+DISPLAY "Enter a number : "
+number = INPUT 
+READ number
+Initialize a to zero
+
+for Initialize i;i is less than or equal to zero;increment i by 1 
+    a=a+3
+
+    if a is equal to number THEN
+       break the loop
+    END if
+
+END for
+
+if a is equal to number THEN 
+   Print "True"  
+
+else
+   Print "False" 
+
+END if
+
+STOP
