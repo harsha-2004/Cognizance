@@ -1,19 +1,19 @@
-START 
+step 1: START 
 
-Initialize a to zero
-Initialize b to one
-Initialize c to zer0
+step 2: Initialize a to zero
+step 3: Initialize b to one
+step 4: Initialize c to zero
 
-DISPLAY Enter a number : 
-n=INPUT
-READ n
+step 5: DISPLAY Enter a number : 
+step 6: n=INPUT
+step 7: READ n
  
-for (Initialize i to 2,i is less than n,increment i every loop) DO
-     SET c=a+b
-     SET a=b
-     SET b=c
-END for
+step 8.0: for (Initialize i to 2,i is less than n,increment i every loop) 
+     8.1: SET c=a+b
+     8.2: SET a=b
+     8.3: SET b=c
+step 9: END for
 
-print c
+step 10 : print c
 
-STOP
+step 11 : STOP
