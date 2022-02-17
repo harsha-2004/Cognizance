@@ -6,21 +6,21 @@ step 4: READ number
 step 5: Initialize a to zero
 step 6: Initialize i to zero
 
-step 7.0: for (,i less than or equal to number,increment i every loop) DO 
+step 7.0: FOR (,i less than or equal to number,increment i every loop) DO 
      7.1: a=a+3
 
-     7.2: if a = number THEN
+     7.2: IF a = number THEN
      7.3: break the loop
-     7.4: END if
+     7.4: END IF
 
 step 8: END for
 
-step 9.0: if a = number THEN 
+step 9.0: IF a = number THEN 
      9.1: Print True  
 
-step 10.0: else
+step 10.0: ELSE
      10.1:  Print False 
 
-step 11: END if
+step 11: END IF
 
 step 12: STOP
